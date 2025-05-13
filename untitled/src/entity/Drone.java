@@ -18,12 +18,12 @@ public class Drone extends Vehicle {
 
     @Override
     public String toString() {
-        return "Drone{" + super.toString() +
-                "distance=" + distance +
-                '}';
+        return "- Drone -" + "\n"+ super.toString() +
+                "Tầm bay tối đa: " + distance + "\n" +
+                "-----------";
     }
 
-    public String getInfo(){
-        return super.getInfo()+","+this.getDistance();
+    public String getInfo() {
+        return super.getInfo() + "," + this.getDistance();
     }
 }

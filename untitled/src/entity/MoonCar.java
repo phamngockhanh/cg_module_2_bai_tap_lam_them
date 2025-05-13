@@ -18,12 +18,13 @@ public class MoonCar extends Vehicle {
 
     @Override
     public String toString() {
-        return "MoonCar{" + super.toString()+
-                "defensive='" + defensive + '\'' +
-                '}';
+        return "-Xe Tuần Tra Mặt Trăng-" + '\n' +
+                super.toString() +
+                "Khả năng chống bức xạ: " + defensive + '\n' +
+                "-----------------------";
     }
 
-    public String getInfo(){
-        return super.getInfo()+","+this.getDefensive();
+    public String getInfo() {
+        return super.getInfo() + "," + this.getDefensive();
     }
 }

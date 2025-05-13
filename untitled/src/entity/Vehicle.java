@@ -48,10 +48,10 @@ public class Vehicle {
     @Override
     public String toString() {
         return
-                "registerNumber='" + registerNumber + '\'' +
-                        ", brandName='" + brandName + '\'' +
-                        ", year=" + year +
-                        ", distributePerson='" + distributePerson + '\'';
+                "Số hiệu: " + registerNumber  + '\n' +
+                        "Tên hãng sản xuất: " + brandName + '\n' +
+                        "Năm sản xuất: " + year + '\n'+
+                        "Người phân phối: " + distributePerson + '\n';
     }
 
     public String getInfo() {
